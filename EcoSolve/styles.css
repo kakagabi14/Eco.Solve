@@ -1,0 +1,688 @@
+/* Estilo Geral */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    max-width: 1200px;
+}
+
+.imglogo{
+    width: 50px;
+    height:50px;
+}
+
+img{
+    width: 500px;
+    height: auto;
+    text-align: center;
+}
+
+/* Cabeçalho */
+header {
+    background: #1EC38C;
+    color: #fff;
+    padding: 15px 0;
+}
+
+header .logo {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ddd;
+}
+
+/* Seção Header */
+.sobre-header {
+    text-align: center;
+    background: #1EC38C;
+    color: #fff;
+    padding: 20px 10px;
+    margin-bottom: 30px;
+}
+
+.sobre-header h2 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.sobre-header p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+/* Seção História */
+.historia {
+    padding: 20px 10px;
+    background: #f9f9f9;
+}
+
+.historia h3 {
+    text-align: center;
+    color: #1EC38C;
+}
+
+.historia p {
+    line-height: 1.8;
+    margin: 15px 0;
+}
+
+/* Missão, Visão e Valores */
+.missao-visao-valores {
+    background: #fff;
+    padding: 20px 10px;
+}
+
+.missao-visao-valores h3 {
+    text-align: center;
+    color: #1EC38C;
+    margin-bottom: 20px;
+}
+
+.missao-visao-valores .card {
+    background: #f4f4f4;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.missao-visao-valores .card h4 {
+    color: #1EC38C;
+}
+
+/* Equipe */
+.equipe {
+    background: #f9f9f9;
+    padding: 20px 10px;
+}
+
+.equipe h3 {
+    text-align: center;
+    color: #1EC38C;
+    margin-bottom: 20px;
+}
+
+.equipe-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.membro {
+    text-align: center;
+    background: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.membro img {
+    max-width: 100%;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.membro h4 {
+    color: #1EC38C;
+    margin-bottom: 5px;
+}
+
+
+/* Hero Section */
+.hero {
+    background: url('images/hero-bg.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero h2 {
+    font-size: 2.5em;
+}
+
+.hero p {
+    font-size: 1.2em;
+}
+
+.hero .btn {
+    background: #fff;
+    color: #28a745;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.hero .btn:hover {
+    background: #ddd;
+}
+
+/* Footer */
+footer {
+    background: #f4f4f4;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 14px;
+}
+
+/* Outros Estilos */
+h2 {
+    text-align: center;
+    margin: 20px 0;
+    color: #28a745;
+}
+
+section img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input, form textarea, form button {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+form button {
+    background: #28a745;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+form button:hover {
+    background: #1e7c39;
+}
+
+
+/* Hero Section */
+.servicos-hero {
+    background: url('images/servicos-hero.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.servicos-hero h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.servicos-hero p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+/* Lista de Serviços */
+.servicos-lista {
+    padding: 30px 10px;
+    background: #f9f9f9;
+}
+
+.servicos-lista h3 {
+    text-align: center;
+    color: #1EC38C;
+    margin-bottom: 20px;
+}
+
+.servicos-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.servico {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    transition: transform 0.3s;
+}
+
+.servico img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.servico h4 {
+    color: #1EC38C;
+    margin-bottom: 10px;
+}
+
+.servico p {
+    margin-bottom: 10px;
+}
+
+.servico:hover {
+    transform: scale(1.05);
+}
+
+/* Área de Contato */
+.contato {
+    background: #1EC38C;
+    color: #fff;
+    padding: 30px 10px;
+}
+
+.contato h3 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.contato p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+form input, form textarea, form button {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+}
+
+form input, form textarea {
+    border: 1px solid #ddd;
+}
+
+form button {
+    background: #fff;
+    color: #1EC38C;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+form button:hover {
+    background: #ddd;
+}
+
+/* Footer */
+footer {
+    background: #f4f4f4;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 14px;
+}
+
+/* Hero Section */
+.hero {
+    background: url('images/hero-background.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero h2 {
+    font-size: 2.8em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.hero .btn {
+    background: #1EC38C;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.hero .btn:hover {
+    background: #15a374;
+}
+
+/* Sobre Section */
+.sobre {
+    padding: 40px 10px;
+    text-align: center;
+    background: #f9f9f9;
+}
+
+.sobre h3 {
+    color: #1EC38C;
+    margin-bottom: 20px;
+}
+
+.valores-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.valor {
+    text-align: center;
+    width: 300px;
+}
+
+.valor img {
+    max-width: 80px;
+    margin-bottom: 10px;
+}
+
+.valor h4 {
+    color: #1EC38C;
+    margin-bottom: 10px;
+}
+
+/* Destaques Section */
+.destaques {
+    padding: 40px 10px;
+    text-align: center;
+}
+
+.destaques h3 {
+    margin-bottom: 20px;
+    color: #1EC38C;
+}
+
+.destaques-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.destaque {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.destaque img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.destaque h4 {
+    color: #1EC38C;
+    margin-bottom: 10px;
+}
+
+.destaque:hover {
+    transform: scale(1.05);
+}
+
+/* Chamada para Ação (CTA) */
+.cta {
+    background: #1EC38C;
+    color: #fff;
+    text-align: center;
+    padding: 30px 10px;
+}
+
+.cta h3 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+.cta .btn {
+    background: #fff;
+    color: #1EC38C;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.cta .btn:hover {
+    background: #ddd;
+}
+
+/* Footer */
+footer {
+    background: #f4f4f4;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 14px;
+}
+
+
+/* Hero Section */
+.contato-hero {
+    background: url('images/contato-hero.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.contato-hero h2 {
+    font-size: 2.5em;
+    margin-bottom: 15px;
+}
+
+.contato-hero p {
+    font-size: 1.2em;
+}
+
+/* Contato Section */
+.contato-form {
+    padding: 40px 10px;
+}
+
+.contato-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.formulario, .informacoes {
+    flex: 1;
+    min-width: 300px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.formulario h3, .informacoes h3 {
+    color: #1EC38C;
+    margin-bottom: 15px;
+}
+
+form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    background: #1EC38C;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+form button:hover {
+    background: #15a374;
+}
+
+/* Informações de Contato */
+.informacoes ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.informacoes ul li {
+    margin-bottom: 10px;
+}
+
+.redes-sociais {
+    display: flex;
+    gap: 10px;
+}
+
+.redes-sociais a img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s;
+}
+
+.redes-sociais a img:hover {
+    transform: scale(1.2);
+}
+
+/* Footer */
+footer {
+    background: #f4f4f4;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 14px;
+}
+
+
+/* Cabeçalho */
+header {
+    background: #1EC38C; /* Cor principal */
+    padding: 15px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo {
+    font-size: 1.8em;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+}
+
+header nav ul li {
+    margin: 0;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 500;
+    transition: color 0.3s, border-bottom 0.3s;
+    padding: 5px;
+}
+
+header nav ul li a:hover,
+header nav ul li a.active {
+    color: #d9f8eb; /* Cor de destaque */
+    border-bottom: 2px solid #fff;
+}
+
+/* Responsividade do Cabeçalho */
+@media (max-width: 768px) {
+    header .container {
+        flex-direction: column;
+    }
+
+    header nav ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+}
